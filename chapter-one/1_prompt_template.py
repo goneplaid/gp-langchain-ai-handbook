@@ -1,5 +1,5 @@
-from langchain.llms import OpenAI
 from langchain import PromptTemplate, LLMChain
+from langchain.llms import OpenAI
 import os
 
 davinci = OpenAI(model_name='text-davinci-003')
